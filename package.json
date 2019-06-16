@@ -1,0 +1,30 @@
+{
+  "name": "lyriczilla",
+  "version": "1.0.0",
+  "description": "1st things 1st",
+  "main": "lyricsZilla.js",
+  "dependencies": {
+    "unirest": "^0.6.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruicarest/lyricsZilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruicarest/lyricsZilla/issues"
+  },
+  "homepage": "https://github.com/ruicarest/lyricsZilla#readme"
+}
