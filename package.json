@@ -5,10 +5,10 @@
   "main": "lyricsZilla.js",
   "dependencies": {
     "unirest": "^0.6.0",
-    "webpack-cli": "^3.3.4"
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
-    "webpack": "^4.34.0",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^3.7.1"
   },
   "scripts": {
